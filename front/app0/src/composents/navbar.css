@@ -1,0 +1,49 @@
+/* Navbar.css */
+.navbar {
+    background-color: #5328b2;
+    color: white;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.navbar nav ul li img {
+    height: 50px; /* Adjust the height of your logo */
+    width: auto;
+    vertical-align: middle;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Scale on hover */
+.navbar nav ul li:hover {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+}
+
+/* Footer.css */
+footer {
+    background-color: #738c99;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h1 {
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    margin: 0;
+}
