@@ -15,7 +15,7 @@ install with node.
 npm install
 ```
 
-## datbase Usage
+## database Usage
 
 ```sql
 -- Create the blogs database if it doesn't exist
